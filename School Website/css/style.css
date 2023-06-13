@@ -150,7 +150,7 @@ nav button{
 
 /* ================================ HEADER ================================= */
 header{
-    border: 1px solid red;                  /* Border */  
+    
     position: relative;
     top: 5rem;
     overflow: hidden;
@@ -180,7 +180,7 @@ header{
 /* ================================ CATEGORIES ================================= */
 
 .categories{
-    border: 3px solid green;                   /* Border */  
+    
     background: var(--color-bg1);
     height: 29rem;
 
@@ -254,12 +254,12 @@ header{
 /* ================================ POPULAR COURSES ================================= */
 
 .courses{
-    border: 2px solid rgb(160, 0, 234);         /*border*/
+    
     margin-top: 10rem;
 }
 
 .courses__container{
-    border: 2px solid yellow;         /*border*/
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
@@ -292,7 +292,7 @@ header{
 /* ================================ FAQ  ================================= */
 
 .faqs {
-    border: 2px solid khaki;
+   
     background: var(--color-bg1);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
@@ -337,13 +337,12 @@ header{
 
 
 .testimonial__container{
-    border: 3px solid red;              /*border*/      
+   
     overflow-x: hidden;
     position: relative;
     margin-top: 5rem;
 }
-.testimonial{
-    border: 2px solid yellow;           /*border*/      
+.testimonial{    
 
     padding-top: 2rem;
 }
@@ -388,4 +387,53 @@ header{
     left: 50%;
     top: -1.5rem;
     transform: rotate(45deg);
+}
+
+
+
+
+/* ================================ FOOTER  ================================= */
+
+footer{
+    background: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9em;
+}
+.footer__container{
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+
+}
+
+.footer__container > div h4{
+    margin-bottom: 1.2rem;
+
+}
+
+.footer__1 p{
+    margin: 0 0 2rem;
+
+}
+
+footer ul li{
+    margin-bottom: 0.7rem;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem;
+    border-top: 1px solid var(--color-bg2);
 }
