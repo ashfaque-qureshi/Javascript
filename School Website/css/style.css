@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+   
 }
 
 :root{
@@ -37,7 +38,7 @@ body{
 
 .container {
     /* border: 1px solid yellow; */
-    width: var(--container-width-lg);
+    width: var(--container-width-lg); 
     margin: 0 auto;
 }
 
@@ -74,7 +75,7 @@ h4{
 a{
     color: var(--color-white);
 }
-img{
+img {
     width: 100%;
     display: block;
     object-fit: cover;
@@ -100,23 +101,32 @@ img{
 }
 
 /* ================================ NAVBAR ================================= */
-nav{
+nav {
+    /* border: 1px solid blue; */
     background: transparent;
-    width: 100vw;
+    width: 100vw!important;
     height: 5rem;
     position: sticky;
     top: 0;
     z-index: 11;
+    padding: 0 150px;
+
 }
-
-
-.nav__container{
-    height: 100%;
+.nav__container {
+    /* border: 1px solid brown; */
+    /* height: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
+/* Change navbar styles on scroll using javascript */
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 
 nav button{
     display: none;
@@ -239,3 +249,39 @@ header{
     font-size: 0.85rem;
 }
 
+
+
+/* ================================ POPULAR COURSES ================================= */
+
+.courses{
+    border: 2px solid rgb(160, 0, 234);         /*border*/
+    margin-top: 10rem;
+}
+
+.courses__container{
+    border: 2px solid yellow;         /*border*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.course{
+    /* border: 2px solid red;         border */
+    background: var(--color-bg1);
+    text-align:center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.course:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+
+.course_info{
+    padding: 2rem;
+}
+
+.course_info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
