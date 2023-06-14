@@ -619,11 +619,9 @@ footer ul li a:hover{
             grid-template-columns: 1fr;
         }
     /* ============================= Testimonial =================================== */
-
         .testimonial__body{
             padding: 1.2rem;
         }
-
     /* ============================= FOOTER =================================== */
         .footer__container{
             grid-template-columns: 1fr;
@@ -636,8 +634,6 @@ footer ul li a:hover{
         .footer__socials{
             justify-content: center;
         }
-
-
-
      }
+
 
