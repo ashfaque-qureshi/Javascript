@@ -1,4 +1,4 @@
-**This website is created using HTML/CSS/JAVASCRIPT**
+**This website was built with HTML/CSS/JAVASCRIPT**
 
 HTML for structure
 CSS GRID / FLEXBOX
